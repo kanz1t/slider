@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'NunitoSans'; /* Имя, которое вы будете использовать */
+    src: url('./fonts/NunitoSans.ttf') format('truetype');
+    font-weight: 400; /* Укажите начертание (normal, bold и т.д.) */
+    font-style: normal;  /* Укажите стиль (normal, italic) */
+}
+@font-face {
+    font-family: 'YesevaOne'; /* Имя, которое вы будете использовать */
+    src: url('./fonts/YesevaOne.ttf') format('truetype');
+    font-weight: 400; /* Укажите начертание (normal, bold и т.д.) */
+    font-style: normal;  /* Укажите стиль (normal, italic) */
+}
+
+a{
+    cursor: pointer;
+}
+body{   
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.page{
+    font-family: "NunitoSans";
+    display: flex;
+    justify-content: center;    
+    background-color: #131313;
+    height: 786px;
+    width: 1440px;
+    color: #fff;
+}
+
+
+.blockProject{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1171px;
+    height: 552px;
+    align-items: center;
+    align-self: center;
+}
+.infoProject{
+    padding-right: 50px;
+}
+.infoDescriptionProject{
+    margin-bottom: 42px;
+}
+
+.completedProjectTitle{
+    font-family: "YesevaOne";
+    font-size: 27px;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.descriptionProject{
+    font-family: "NunitoSans";
+    font-size: 14px;
+}
+
+.infoHomePod{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.titleCategoryInfo{
+    font-family: "YesevaOne";
+        font-weight: 400;
+    font-size: 18px;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.infCategoryInf{
+    font-family: "NunitoSans";
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+.titleProjectName{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.pointsSlider{
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    justify-content: start;
+}
+.pointsss{
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+}
+.activePoint{
+    border:#E3B873 solid 2px;
+}
+.pointSlider{
+    display: block;
+    border-radius: 30px;
+    background-color:  #fff;
+    height: 9.57px;
+    width:  9.57px;
+    margin-top: 3px;
+    cursor: pointer; 
+}
+.arow{
+    cursor: pointer;
+}
+.arow.reverse{
+    transform: rotate(180deg);
+}
+.navLink{
+    font-family: "YesevaOne";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navLink.activeLink {
+    color: #E3B873;
+    border-bottom: #E3B873 solid 1px;
+}
+
+.imgProject{
+    width: 679px;
+    height: 482px;
+}
