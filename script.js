@@ -28,7 +28,7 @@ const objectProject ={
     }
 }
 
-const points = document.querySelector('.pointsss');
+const points = document.querySelector('.slider-dots');
 const navLink = document.querySelector('.titleProjectName')
 let spanPoint = document.querySelectorAll('.pointSlider')
 const arows =document.querySelector('.arow');

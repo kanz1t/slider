@@ -90,7 +90,7 @@ body{
     grid-auto-flow: column;
     justify-content: start;
 }
-.pointsss{
+.slider-dots{
     display: grid;
     gap: 20px;
     grid-auto-flow: column;
